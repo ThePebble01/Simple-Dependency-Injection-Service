@@ -1,4 +1,4 @@
-public with sharing class DIService {
+public without sharing class DIService {
     @testVisible
     private static Map<String, String> implementationsByInterfaces{
         get{
